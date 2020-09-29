@@ -25,6 +25,9 @@ public class Point {
         return Objects.hash(x, y);
     }
 
+    public void showPoint(){
+        System.out.println("(" + x + ", " + y +")");
+    }
     //    @Override
 //    public boolean equals(Object obj) {
 //        if(this == obj)
